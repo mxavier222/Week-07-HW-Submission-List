@@ -30,11 +30,11 @@ function shuffle(arr) {
     teacher: teachers[index % teachers.length]
   }));
 
-  let display = "Student          Teacher\n";
-  display += "----------------------------\n";
+  let display = "Student                 Teacher\n";
+  display += "----------------------------------\n";
 
   assignments.forEach(({ student, teacher }) => {
-    display += student.padEnd(13) + teacher + "\n";
+    display += student.padEnd(25) + teacher + "\n";
   });
 
   document.getElementById("output").textContent = display;
