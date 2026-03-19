@@ -3,7 +3,7 @@ const students = [
   "Samira",
   "Sepideh",
   "Evelina",
-  "Maglin",
+  "Maglin Xavier",
   "Anastasia",
   "Sulakshana",
   "Janaki",
