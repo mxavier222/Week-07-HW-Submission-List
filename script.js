@@ -11,9 +11,9 @@ const students = [
   "Christy",
   "Chanakarn",
   "Narges",
-  "Yana",
+  "Yanashree",
   "Seda",
-  "Vanitha",
+  "Vanitha battu",
   "Afrin",
   "Lucia",
   "Hajra",
@@ -36,6 +36,6 @@ function shuffle(arr) {
   assignments.forEach(({ student, teacher }) => {
     display += student.padEnd(25) + teacher + "\n";
   });
-
+  
   document.getElementById("output").textContent = display;
 
